@@ -14,7 +14,7 @@ namespace WCFRestWebService.DataModels
         private string customerCity;
 
         [DataMember]
-        public int CustomerId
+        public int CustomerID
         {
             get { return customerId; }
             set { customerId = value; }

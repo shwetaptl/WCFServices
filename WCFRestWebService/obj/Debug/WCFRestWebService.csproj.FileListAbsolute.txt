@@ -4,3 +4,4 @@ D:\Projects\AngularProjects\WCFRestWebService\WCFRestWebService\bin\WCFRestWebSe
 D:\Projects\AngularProjects\WCFRestWebService\WCFRestWebService\obj\Debug\WCFRestWebService.csproj.CoreCompileInputs.cache
 D:\Projects\AngularProjects\WCFRestWebService\WCFRestWebService\obj\Debug\WCFRestWebService.dll
 D:\Projects\AngularProjects\WCFRestWebService\WCFRestWebService\obj\Debug\WCFRestWebService.pdb
+D:\Projects\AngularProjects\WCFRestWebService\WCFRestWebService\obj\Debug\WCFRestWebService.csprojAssemblyReference.cache

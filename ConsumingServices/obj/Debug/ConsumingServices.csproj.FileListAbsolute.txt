@@ -1,0 +1,10 @@
+D:\Projects\AngularProjects\WCFRestWebService\ConsumingServices\bin\Debug\ConsumingServices.exe.config
+D:\Projects\AngularProjects\WCFRestWebService\ConsumingServices\bin\Debug\ConsumingServices.exe
+D:\Projects\AngularProjects\WCFRestWebService\ConsumingServices\bin\Debug\ConsumingServices.pdb
+D:\Projects\AngularProjects\WCFRestWebService\ConsumingServices\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\AngularProjects\WCFRestWebService\ConsumingServices\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\AngularProjects\WCFRestWebService\ConsumingServices\obj\Debug\ConsumingServices.csproj.CoreCompileInputs.cache
+D:\Projects\AngularProjects\WCFRestWebService\ConsumingServices\obj\Debug\ConsumingServices.csproj.CopyComplete
+D:\Projects\AngularProjects\WCFRestWebService\ConsumingServices\obj\Debug\ConsumingServices.exe
+D:\Projects\AngularProjects\WCFRestWebService\ConsumingServices\obj\Debug\ConsumingServices.pdb
+D:\Projects\AngularProjects\WCFRestWebService\ConsumingServices\obj\Debug\ConsumingServices.csprojAssemblyReference.cache
