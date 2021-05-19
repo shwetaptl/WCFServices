@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WCFRestWebService.RESTService" CodeBehind="RESTService.svc.cs" %>
