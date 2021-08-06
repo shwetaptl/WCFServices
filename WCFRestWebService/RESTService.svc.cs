@@ -17,15 +17,12 @@ namespace WCFRestWebService
 
         public List<Customers> GetCustomers()
         {
-
             lstCustomers.Add(new Customers { CustomerID = 1, CustomerName = "Josheph", CustomerCity = "New York" });
             lstCustomers.Add(new Customers { CustomerID = 2, CustomerName = "Michle", CustomerCity = "Los Angeles" });
             lstCustomers.Add(new Customers { CustomerID = 3, CustomerName = "John", CustomerCity = "Chicago" });
             lstCustomers.Add(new Customers { CustomerID = 4, CustomerName = "Mike", CustomerCity = "Dallas" });
             lstCustomers.Add(new Customers { CustomerID = 5, CustomerName = "Richel", CustomerCity = "San Francisco" });
-
             return lstCustomers;
-
         }
     }
 }

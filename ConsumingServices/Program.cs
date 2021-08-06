@@ -20,23 +20,19 @@ namespace ConsumingServices
 
         static void CallingRESTfunction()
         {
-
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://localhost:58534/RESTService.svc/restPoint/GetCustomer");
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://localhost:58534/RESTService.svc/restPoint/GetCustomers");
 
             //Get the Web Response
-
             HttpWebResponse response = (HttpWebResponse)request.GetResponse();
 
             Stream responseStream = response.GetResponseStream();
 
             //Seting Up the Stream Reader
-
             StreamReader readerStream = new StreamReader(responseStream, System.Text.Encoding.GetEncoding("utf-8"));
 
             string json = readerStream.ReadToEnd();
             
-            Console.WriteLine(json);
-            
+            Console.WriteLine(json);            
 
             Console.ReadLine();
 

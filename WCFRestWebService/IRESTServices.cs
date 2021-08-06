@@ -14,8 +14,10 @@ namespace WCFRestWebService
     public interface IRESTServices
     {
         //API CALL : {{URL}}/RESTService.svc/restPoint/GetCustomer
+        //You have to define method type other things are optionals.
         [OperationContract]
-        [WebGet(UriTemplate = "/GetCustomer", RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
+        [WebGet]
+        //[WebGet(UriTemplate = "/GetCustomers", RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
         List<Customers> GetCustomers();
     }
 

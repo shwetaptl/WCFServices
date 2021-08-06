@@ -1,7 +1,0 @@
-D:\Projects\AngularProjects\WCFRestWebService\WCFRestWebService\bin\WCFRestWebService.dll.config
-D:\Projects\AngularProjects\WCFRestWebService\WCFRestWebService\bin\WCFRestWebService.dll
-D:\Projects\AngularProjects\WCFRestWebService\WCFRestWebService\bin\WCFRestWebService.pdb
-D:\Projects\AngularProjects\WCFRestWebService\WCFRestWebService\obj\Debug\WCFRestWebService.csproj.CoreCompileInputs.cache
-D:\Projects\AngularProjects\WCFRestWebService\WCFRestWebService\obj\Debug\WCFRestWebService.dll
-D:\Projects\AngularProjects\WCFRestWebService\WCFRestWebService\obj\Debug\WCFRestWebService.pdb
-D:\Projects\AngularProjects\WCFRestWebService\WCFRestWebService\obj\Debug\WCFRestWebService.csprojAssemblyReference.cache
