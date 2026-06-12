@@ -1,24 +1,18 @@
-﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
-using System.Text;
 using WCFRestWebService.DataModels;
 
 namespace WCFRestWebService
 {
-    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IService1" in both code and config file together.
     [ServiceContract]
     public interface IRESTServices
     {
-        //API CALL : {{URL}}/RESTService.svc/restPoint/GetCustomer
-        //You have to define method type other things are optionals.
+        // API call: GET {host}/RESTService.svc/restPoint/GetCustomers
+        // [WebGet] enables HTTP GET access. ResponseFormat.Json overrides WCF's default (Xml),
+        // ensuring the response is a JSON array the REST client can deserialize.
         [OperationContract]
-        [WebGet]
-        //[WebGet(UriTemplate = "/GetCustomers", RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
+        [WebGet(ResponseFormat = WebMessageFormat.Json)]
         List<Customers> GetCustomers();
     }
-
 }

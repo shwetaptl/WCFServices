@@ -1,9 +1,7 @@
 using System.Runtime.Serialization;
 
-namespace WCFRestWebService.DataModels
+namespace WCFSOAPWebService.DataModels
 {
-    // [DataContract] marks this class for WCF serialization.
-    // With webHttpBinding the output is JSON or XML; with basicHttpBinding it is wrapped in a SOAP envelope.
     [DataContract]
     public class Customers
     {

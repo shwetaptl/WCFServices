@@ -1,9 +1,9 @@
 using System.Collections.Generic;
-using WCFRestWebService.DataModels;
+using WCFSOAPWebService.DataModels;
 
-namespace WCFRestWebService
+namespace WCFSOAPWebService
 {
-    public class RESTService : IRESTServices
+    public class SOAPService : ISOAPService
     {
         public List<Customers> GetCustomers()
         {
